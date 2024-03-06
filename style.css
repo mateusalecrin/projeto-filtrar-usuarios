@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    
 }
 
 body {
@@ -10,11 +12,32 @@ body {
     /* overflow: hidden; */
     margin: 0;
     height: 100vh;
+    background-color: #f6f6e2;
 }
 
 .container {
-    width: 60%;
-    height: 65%;
+    min-width: 700px;
+    height: 80%;
+    width: 55%;
+}
+
+#usuarios {
+    margin: 0px 0px;
+    max-height: 267px;
+    overflow-y: auto;
+}
+
+.col {
+    min-width: 320px;
+    margin-top: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #d4c098;
+}
+
+.card {
+    padding: 3px;
+    border: none;
+    background-color: #d4c098;
 }
 
 .card-img-top {
@@ -23,21 +46,43 @@ body {
     border-radius: 50%; 
 }
 
-.card {
-    padding: 3px;
-    border: none;
+.card-body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-#usuarios {
-    margin: 10px 0px;
-    max-height: 300px;
-    overflow-y: auto;
+.card-title {
+    font-size: 0.9rem;
+}
+
+.card-text {
+    font-size: 0.7rem;
 }
 
 #card1{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
-.col {
-    min-width: 385px;
+@media screen and (max-width: 710px) {
+    .container {
+        min-width: 300px;
+        width: 90%; /* Define uma largura menor para o contêiner quando a tela for menor que 710 pixels */
+    }
+
+    .col {
+        min-width: 150px;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
 }
+
