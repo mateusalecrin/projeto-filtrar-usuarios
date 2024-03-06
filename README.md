@@ -6,10 +6,6 @@ para essa função, decidi ir além, criando "usuários" que representam autores
 desenvolvimento do pensamento e o conhecimento humano.<br/>
 </p>
 
-<p align="center">
-<!--   <img width="70%" height="70%" alt="projeto Grécia Antiga" src="https://user-images.githubusercontent.com/105462293/222000915-9fa9ade7-3f5e-4afe-9718-d0df1ef28178.png" > -->
-</p>
-
 <br/>
 
 ## 🚀 Tecnologias
@@ -25,13 +21,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Em construção.
-
-<br/>
-
-## 🔖 Layout
-
-Em construção.
+<img> 
+<p align="center">
+  <img src="https://github.com/mateusalecrin/projeto-filtrar-usuarios/assets/105462293/58c6ab2a-eb72-4cbb-a6d7-58894039c7fb" title="Filtrar Usuarios Project">
+</p>
 
 <br/>
 

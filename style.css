@@ -8,8 +8,8 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* overflow: hidden; */
+    justify-content: flex-end;
+    flex-direction: column;
     margin: 0;
     height: 100vh;
     background-color: #f6f6e2;
@@ -64,6 +64,18 @@ body {
 
 #card1{
     margin-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
 }
 
 @media screen and (max-width: 710px) {
